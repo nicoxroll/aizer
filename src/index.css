@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-zinc-700;
+  }
+  body {
+    @apply bg-black text-white font-thin;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
